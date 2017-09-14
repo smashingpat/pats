@@ -1,6 +1,7 @@
+const path = require('path');
 const Pats = require('./lib');
 
 
 Pats({
-    rootDir: __dirname,
+    rootDir: path.resolve(__dirname, 'example'),
 });
