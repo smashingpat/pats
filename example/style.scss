@@ -1,7 +1,7 @@
-$color: red;
+@import 'variables.scss';
 
 html,
 body {
-    font-size: 4em;
     font-family: monospace;
+    color: $color;
 }
